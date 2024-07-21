@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes Cadastrados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastrar Cliente</h1>
+
+    <!-- Formulário de Cadastro -->
+    <form id="clientForm">
+        <input type="text" id="nameInput" placeholder="Nome" required>
+        <input type="email" id="emailInput" placeholder="E-mail" required>
+        <input type="text" id="phoneInput" placeholder="Telefone" required>
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <input type="text" id="searchInput" placeholder="Buscar clientes...">
+    
+    <ul id="clientList">
+        <!-- Aqui serão listados os clientes -->
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
